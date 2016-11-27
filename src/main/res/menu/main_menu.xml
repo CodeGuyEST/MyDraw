@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/new_drawing"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="New"
+        app:showAsAction="never"/>
+    <item android:id="@+id/save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save"
+        app:showAsAction="never"/>
+    <item android:id="@+id/export"
+        android:icon="@drawable/ic_file_upload_white_24dp"
+        android:title="Export"
+        app:showAsAction="never"/>
+    <item android:id="@+id/import_file"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        android:title="Import"
+        app:showAsAction="never"/>
+</menu>
