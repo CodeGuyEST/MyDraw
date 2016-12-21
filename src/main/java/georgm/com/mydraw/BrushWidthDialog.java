@@ -13,10 +13,6 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-
-/**
- * Created by Georg on 21.11.2016.
- */
 public class BrushWidthDialog extends Dialog {
 
     private Context ctx;

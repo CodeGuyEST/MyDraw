@@ -15,9 +15,6 @@ import android.widget.ImageView;
 import com.larswerkman.holocolorpicker.ColorPicker;
 import com.larswerkman.holocolorpicker.SVBar;
 
-/**
- * Created by Georg on 21.11.2016.
- */
 public class ColorPickerDialog extends Dialog {
     private ColorPicker colorPicker;
     private SVBar svBar;
@@ -101,9 +98,9 @@ public class ColorPickerDialog extends Dialog {
             }
             else {
                 DrawingView drawingArea = ((MainActivity)ctx).getDrawingView();
+                drawingArea.setBackground(null);
                 drawingArea.setBackgroundColor(colorPicker.getColor());
                 ColorPickerDialog.this.modifyBackgroundIcon();
-                drawingArea.resetBitmap();
             }
         }
     }
